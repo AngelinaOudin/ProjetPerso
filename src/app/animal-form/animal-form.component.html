@@ -1,0 +1,6 @@
+<form (ngSubmit) ="onSubmit()">
+  Nom : <input type="text" id="nom" name="nom" required [(ngModel)]="model.nom"/>
+  Espèce : <input type="text" id="espece" name="espece" required [(ngModel)]="model.espece"/>
+  Age : <input type="number" id="age" name="age" required [(ngModel)]="model.age"/><br>
+  <button type="submit">Ajouter</button>
+</form>

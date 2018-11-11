@@ -1,0 +1,8 @@
+Vos animaux : <br>
+<p *ngFor="let a of animaux">
+  <app-animal-detail [animal]="a"></app-animal-detail>
+  <br>
+  <!--<a routerLink="/Pony/{{p.id}}">Afficher</a> |
+      <a routerLink="/UpdatePony/{{p.id}}">Modifier</a> |
+      <a routerLink="/DeletePony/{{p.id}}">Supprimer</a>-->
+</p>
